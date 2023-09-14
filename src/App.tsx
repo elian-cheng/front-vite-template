@@ -1,14 +1,13 @@
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Router from 'routing/Router';
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
       <main className="main">
-        <div className="main__container">{/* <Router /> */} New App</div>
+        <Router />
       </main>
-      {/* <Footer /> */}
       <ToastContainer position="top-right" autoClose={3000} theme="colored" />
     </>
   );
